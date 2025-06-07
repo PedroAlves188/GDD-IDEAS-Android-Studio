@@ -12,10 +12,6 @@
         "source": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-main-39:/layout/project_item.xml"
     },
     {
-        "merged": "com.example.gdd_ideas.app-mergeDebugResources-36:/layout/project_item.xml",
-        "source": "com.example.gdd_ideas.app-main-39:/layout/project_item.xml"
-    },
-    {
         "merged": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-mergeDebugResources-36:/layout/activity_projects.xml",
         "source": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-main-39:/layout/activity_projects.xml"
     },

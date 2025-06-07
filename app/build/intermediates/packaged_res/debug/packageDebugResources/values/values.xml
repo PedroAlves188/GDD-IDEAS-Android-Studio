@@ -18,6 +18,7 @@
         <item>@font/allerta</item>
     </array>
     <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#AF448F</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">GDD-IDEAS</string>
     <style name="Base.Theme.GDDIDEAS" parent="Theme.Material3.DayNight.NoActionBar">

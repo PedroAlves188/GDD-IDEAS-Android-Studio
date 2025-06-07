@@ -92,6 +92,10 @@
         "source": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-main-39:/mipmap-hdpi/ic_launcher.webp"
     },
     {
+        "merged": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-debug-37:/drawable_background.xml.flat",
+        "source": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-main-39:/drawable/background.xml"
+    },
+    {
         "merged": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-debug-37:/drawable_logo.png.flat",
         "source": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-main-39:/drawable/logo.png"
     },
@@ -100,16 +104,16 @@
         "source": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.gdd_ideas.app-debug-37:/layout_project_item.xml.flat",
-        "source": "com.example.gdd_ideas.app-main-39:/layout/project_item.xml"
-    },
-    {
         "merged": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-debug-37:/drawable_back.xml.flat",
         "source": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-main-39:/drawable/back.xml"
     },
     {
         "merged": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-debug-37:/layout_activity_sign_in.xml.flat",
         "source": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-main-39:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-debug-37:/drawable_background2.xml.flat",
+        "source": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-main-39:/drawable/background2.xml"
     },
     {
         "merged": "/home/book/.gradle/daemon/8.11.1/com.example.gdd_ideas.app-debug-37:/mipmap-xxhdpi_ic_launcher.webp.flat",

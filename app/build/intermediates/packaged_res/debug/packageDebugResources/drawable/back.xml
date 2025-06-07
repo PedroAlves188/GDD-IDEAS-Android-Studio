@@ -10,9 +10,9 @@
                   
             <gradient android:centerX="174.5" android:centerY="199.5" android:gradientRadius="161.5" android:type="radial">
                         
-                <item android:color="#00FFFFFF" android:offset="0"/>
+                <item android:color="#AAFFFFFF" android:offset="0"/>
                         
-                <item android:color="#FFC5A1CC" android:offset="1"/>
+                <item android:color="#AAAAAAFF" android:offset="1"/>
                       
             </gradient>
                 

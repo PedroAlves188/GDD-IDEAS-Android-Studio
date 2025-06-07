@@ -5,8 +5,11 @@ array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
 color black
+color ic_launcher_background
 color white
 drawable back
+drawable background
+drawable background2
 drawable grid
 drawable ic_launcher_background
 drawable ic_launcher_foreground

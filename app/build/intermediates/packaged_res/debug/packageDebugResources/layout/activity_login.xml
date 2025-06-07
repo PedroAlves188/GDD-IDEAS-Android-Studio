@@ -9,13 +9,15 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="600dp"
-        android:layout_height="900dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerInside"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/grid" />
+        app:srcCompat="@drawable/background" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/materialToolbar3"
@@ -28,6 +30,7 @@
         android:background="#FEEDFF"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

@@ -41,12 +41,12 @@ public class MyDataBase_Impl : MyDataBase() {
 
   protected override fun createOpenDelegate(): RoomOpenDelegate {
     val _openDelegate: RoomOpenDelegate = object : RoomOpenDelegate(1,
-        "5826eddbe6c3baf8aa100e59e6e72802", "b60e6d6d19765d9ee0051755d2e87b0c") {
+        "cf4632c6f2d24c5d7b2a9c357b68083b", "6949c8af4ef6c66bb0596e0a74b94a1d") {
       public override fun createAllTables(connection: SQLiteConnection) {
         connection.execSQL("CREATE TABLE IF NOT EXISTS `tb_user` (`id` TEXT NOT NULL, `name` TEXT NOT NULL, `email` TEXT NOT NULL, `password` TEXT NOT NULL, PRIMARY KEY(`id`))")
-        connection.execSQL("CREATE TABLE IF NOT EXISTS `tb_proj` (`idProj` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `projName` TEXT NOT NULL, `projDesc` TEXT NOT NULL, `fkUser` TEXT NOT NULL)")
+        connection.execSQL("CREATE TABLE IF NOT EXISTS `tb_proj` (`idProj` TEXT NOT NULL, `projName` TEXT NOT NULL, `projDesc` TEXT NOT NULL, `fkUser` TEXT NOT NULL, PRIMARY KEY(`idProj`))")
         connection.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)")
-        connection.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '5826eddbe6c3baf8aa100e59e6e72802')")
+        connection.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'cf4632c6f2d24c5d7b2a9c357b68083b')")
       }
 
       public override fun dropAllTables(connection: SQLiteConnection) {
@@ -94,7 +94,7 @@ public class MyDataBase_Impl : MyDataBase() {
               |""".trimMargin() + _existingTbUser)
         }
         val _columnsTbProj: MutableMap<String, TableInfo.Column> = mutableMapOf()
-        _columnsTbProj.put("idProj", TableInfo.Column("idProj", "INTEGER", true, 1, null,
+        _columnsTbProj.put("idProj", TableInfo.Column("idProj", "TEXT", true, 1, null,
             TableInfo.CREATED_FROM_ENTITY))
         _columnsTbProj.put("projName", TableInfo.Column("projName", "TEXT", true, 0, null,
             TableInfo.CREATED_FROM_ENTITY))

@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/grid" />
+        app:srcCompat="@drawable/background" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -34,6 +34,15 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/logo" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:listitem="@layout/project_item"
+        tools:ignore="MissingConstraints" />
+
     <Button
         android:id="@+id/btnCreateProj"
         android:layout_width="50dp"
@@ -45,13 +54,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:listitem="@layout/project_item" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
