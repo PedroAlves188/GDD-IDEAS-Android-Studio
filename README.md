@@ -1,3 +1,3 @@
-Haramis Edvan Cavalcante Cardoso
-\nLuiz Fernando Santos Gonçalves
-\nPedro Leonardo Barboza Alves
+Haramis Edvan Cavalcante Cardoso <br />
+Luiz Fernando Santos Gonçalves  <br />
+Pedro Leonardo Barboza Alves
