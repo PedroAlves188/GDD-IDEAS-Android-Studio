@@ -1,4 +1,4 @@
-Aluno: <br />
+Alunos: <br />
 
 Haramis Edvan Cavalcante Cardoso <br />
 Luiz Fernando Santos Gonçalves  <br />
